@@ -126,7 +126,7 @@ venv.bak/
 dmypy.json
 
 # Pyre type checker
-/.idea/
+.idea/
 .pyre/
 .idea/$CACHE_FILE$
 .idea/.gitignore
