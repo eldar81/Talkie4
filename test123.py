@@ -8,6 +8,3 @@ print(matches_table)
 for user in matches_table:
     print(user[2])
     print(type(user[2]))
-
-
-b = 2 + 2

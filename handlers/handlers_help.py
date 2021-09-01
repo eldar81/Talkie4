@@ -39,7 +39,7 @@ async def get_support_message(message: Message, state: FSMContext):
     keyboard = await support_keyboard(messages="one", user_id=message.from_user.id)
     await message.copy_to(second_id, reply_markup=keyboard)
 
-    await message.answer("Вы отправили это сообщение!")
+    await message.answer("Сообщение отправлено в поддержку. Оператор скоро ответит")
     await state.reset_state()
 
 
